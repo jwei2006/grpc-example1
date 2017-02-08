@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	                    http://www.springframework.org/schema/beans/spring-beans-3.2.xsd"
+	default-autowire="byName">
+
+
+    <bean id="organizationManager" class="com.xhd.manager.impl.OrganizationManagerImpl"/>
+    <bean id="teacherManager" class="com.xhd.manager.impl.TeacherManagerImpl"/>
+	<bean id="courseManager" class="com.xhd.manager.impl.CourseManagerImpl"/>
+	<bean id="yibaoCityManager" class="com.xhd.manager.impl.YibaoCityManagerImpl"/>
+	<!-- 阳光e学-->
+	<bean id="studentManager" class="com.xhd.manager.impl.StudentManagerImpl"/>
+	<bean id="studentBasicManager" class="com.xhd.manager.impl.StudentBasicManagerImpl"/>
+	<bean id="studentEducationManager" class="com.xhd.manager.impl.StudentEducationManagerImpl"/>
+	<bean id="studentJobManager" class="com.xhd.manager.impl.StudentJobManagerImpl"/>
+	<bean id="studentRelativesManager" class="com.xhd.manager.impl.StudentRelativesManagerImpl"/>
+	<bean id="studentUsageManager" class="com.xhd.manager.impl.StudentUsageManagerImpl"/>
+	<bean id="biddingManager" class="com.xhd.manager.impl.BiddingManagerImpl"/>
+	<bean id="biddingItemManager" class="com.xhd.manager.impl.BiddingItemManagerImpl"/>
+	<bean id="lenderManager" class="com.xhd.manager.impl.LenderManagerImpl"/>
+	<bean id="interestRateManager" class="com.xhd.manager.impl.InterestRateManagerImpl"/>
+	<bean id="studentAccountManager" class="com.xhd.manager.impl.StudentAccountManagerImpl"/>
+	<bean id="studentAccountFlowManager" class="com.xhd.manager.impl.StudentAccountFlowManagerImpl"/>
+	<bean id="studentBillStageManager" class="com.xhd.manager.impl.StudentBillStageManagerImpl"/>
+	<bean id="lenderAccountManager" class="com.xhd.manager.impl.LenderAccountManagerImpl"/>
+	<bean id="lenderAccountFlowManager" class="com.xhd.manager.impl.LenderAccountFlowManagerImpl"/>
+	<bean id="organizationAccountManager" class="com.xhd.manager.impl.OrganizationAccountManagerImpl"/>
+	<bean id="organizationAccountFlowManager" class="com.xhd.manager.impl.OrganizationAccountFlowManagerImpl"/>
+	<bean id="accountFlowManager" class="com.xhd.manager.impl.AccountFlowManagerImpl"/>
+	<bean id="lenderBillStageManager" class="com.xhd.manager.impl.LenderBillStageManagerImpl"/>
+	<bean id="accountManager" class="com.xhd.manager.impl.AccountManagerImpl" />
+    <bean id="platformBillStageManager" class="com.xhd.manager.impl.PlatformBillStageManagerImpl"/>
+
+	<bean id="phoneCodeManager" class="com.xhd.manager.impl.PhoneCodeManagerImpl"/>
+</beans>
